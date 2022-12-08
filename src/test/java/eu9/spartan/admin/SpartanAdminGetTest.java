@@ -13,7 +13,7 @@ import static net.serenitybdd.rest.SerenityRest.given;
 import static net.serenitybdd.rest.SerenityRest.lastResponse;
 import static org.hamcrest.Matchers.is;
 
-@Disabled
+//@Disabled
 @SerenityTest
 public class SpartanAdminGetTest {
 
@@ -79,7 +79,7 @@ public class SpartanAdminGetTest {
 
         //Serenity way of assertion
 
-        Ensure.that("Status code is 200",validatableResponse -> validatableResponse.statusCode(201) );
+        Ensure.that("Status code is 200",validatableResponse -> validatableResponse.statusCode(200) );
 
         Ensure.that("Content-type is JSON",vRes -> vRes.contentType(ContentType.JSON));
 
