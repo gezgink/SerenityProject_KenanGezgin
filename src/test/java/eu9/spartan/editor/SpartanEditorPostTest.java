@@ -1,7 +1,6 @@
 package eu9.spartan.editor;
-
-import eu9.spartan.utilities.SpartanNewBase;
-import eu9.spartan.utilities.SpartanUtil;
+import utilities.SpartanNewBase;
+import utilities.SpartanUtil;
 import io.restassured.http.ContentType;
 import net.serenitybdd.junit5.SerenityTest;
 import net.serenitybdd.rest.Ensure;
@@ -10,6 +9,9 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
+import utilities.SpartanNewBase;
+import utilities.SpartanUtil;
+
 
 import java.util.LinkedHashMap;
 import java.util.Map;
