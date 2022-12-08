@@ -1,4 +1,4 @@
-package eu9.spartan.utilities;
+package utilities;
 
 import com.github.javafaker.Faker;
 

@@ -1,4 +1,4 @@
-package eu9.spartan.utilities;
+package utilities;
 
 import io.restassured.filter.log.LogDetail;
 import io.restassured.http.ContentType;

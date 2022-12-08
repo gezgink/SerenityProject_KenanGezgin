@@ -1,4 +1,4 @@
-package eu9.spartan.utilities;
+package utilities;
 
 
 import net.serenitybdd.core.environment.EnvironmentSpecificConfiguration;
